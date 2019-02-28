@@ -3,11 +3,11 @@
 
 
 
-//////////////////// Classes
+///////////////////////////////////////////////////////////////////////// Classes
 
 
 
-// base-class Person
+// Base-Class Person
 
 class Person{
     constructor(attributes){
@@ -23,7 +23,7 @@ class Person{
 
 
 
-// child-class Instructor
+// Child-Class Instructor
 
 class Instructor extends Person{
     constructor(qualities){
@@ -42,7 +42,7 @@ class Instructor extends Person{
 
 
 
-// child-class Student
+// Child-Class Student
 
 class Student extends Person{
     constructor(about){
@@ -64,7 +64,7 @@ class Student extends Person{
 
 
 
-// grandchild-class PMs
+// Grandchild-Class PMs
 
 class ProjectManagers extends Instructor{
     constructor(info){
@@ -84,7 +84,7 @@ class ProjectManagers extends Instructor{
 
 
 
-///////////////// User Entries
+///////////////////////////////////////////////////////////////////////////// User Entries
 
 
 
@@ -219,7 +219,7 @@ const vader = new ProjectManagers({
 
 
 
-///////////////// console logs
+////////////////////////////////////////////////////////////////////////////// Console Logs
 
 
 // Instructor
